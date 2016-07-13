@@ -1,0 +1,46 @@
+{
+  "name": "trailpack-leagueoflegends",
+  "version": "0.1.0-alpha-1",
+  "description": "Add a Trails service to get data from League Of Legends API.",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "Mehdi Aissani",
+    "email": "contact@mehdiaissani.com",
+    "url": "http://mehdiaissani.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "League Of Legends",
+    "API",
+    "rest",
+    "lol",
+    "leagu-of-legends",
+    "lol-api",
+    "trailpack",
+    "trails",
+    "trailjs"
+  ],
+  "dependencies": {
+    "trailpack": "latest"
+  },
+  "devDependencies": {
+    "lodash": "^4.11.1",
+    "trails": "latest",
+    "eslint": "^2.4",
+    "eslint-config-trails": "^1.0.4",
+    "mocha": "^2.4.5",
+    "smokesignals": "^1.0.9",
+    "trailpack-core": "^1.0.0-beta-6"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "maissani/trailpack-leagueoflegends",
+  "license": "MIT"
+}

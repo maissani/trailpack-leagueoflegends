@@ -1,0 +1,1 @@
+exports.LeagueOfLegendsService = require('./LeagueOfLegendsService')
