@@ -60,11 +60,18 @@ module.exports = {
   	this.app.services.LeagueOfLegendsService.get('champion', 'getChampions', { region: 'euw' }).then(data => {
   		console.log(data);
   	});
+  	// Example for Get Current Summoner Elo
+  	let summonerName = 'WarkAngel'
+  	this.app.services.LeagueOfLegendsService.get('summoner', 'getSummonersByName', { region: 'euw', summonerNames: summonerName }).then(data => {
+  		this.app.services.LeagueOfLegendsService.get('league', 'getLeagueBySummoner', { region: 'euw', summonerIds: data[summonerName.toLowerCase()].id }).then(league =>{
+  			console.log(league);
+  		});
+  	});
 
 ```
-## Methods and API Aviable
+## Methods and API Available
 
-All methods are aviable, see [method Reference](./config/lolreference.js) for more information about how to use.
+All methods are available, see [method Reference](./config/lolreference.js) for more information about how to use.
 
 [npm-image]: https://img.shields.io/npm/v/trailpack-leagueoflegends.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/trailpack-leagueoflegends
