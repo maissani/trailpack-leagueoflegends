@@ -11,7 +11,6 @@ const request = require('request');
  */
 module.exports = class LeagueOfLegendsService extends Service {
   get(apiName, methodName, parameters) {
-  	console.log(apiName, methodName, parameters)
   	const config = this.app.config.lolreference
   	let targetPath = this.getConfig(apiName, methodName)
   	let targetApiUrl = uriParser.parse(targetPath)
@@ -28,7 +27,6 @@ module.exports = class LeagueOfLegendsService extends Service {
 
   resolve(urlPath) {
     let requestedUrl = 'https://euw.api.pvp.net' + urlPath + '?api_key=' + this.app.config.leagueoflegends.apiKey
-    console.log(requestedUrl)
     return new Promise(function(resolve, reject){
       request(
         {
