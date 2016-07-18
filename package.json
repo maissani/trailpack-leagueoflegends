@@ -1,6 +1,6 @@
 {
   "name": "trailpack-leagueoflegends",
-  "version": "0.1.0-alpha-1",
+  "version": "0.1.0",
   "description": "Add a Trails service to get data from League Of Legends API.",
   "homepage": "http://trailsjs.io",
   "author": {
