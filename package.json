@@ -21,7 +21,12 @@
     "trailjs"
   ],
   "dependencies": {
-    "trailpack": "latest"
+    "lodash": "^4.13.1",
+    "promise": "^7.1.1",
+    "request": "^2.73.0",
+    "trailpack": "latest",
+    "trails-service": "^1.0.0-beta-2",
+    "uri-template": "^1.0.1"
   },
   "devDependencies": {
     "lodash": "^4.11.1",

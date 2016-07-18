@@ -8,7 +8,12 @@ module.exports = class LeagueoflegendsTrailpack extends Trailpack {
    * TODO document method
    */
   validate () {
-
+    if (!this.app.config.leagueoflegends){
+      return Promise.reject(
+        new Error('There no leagueoflegends.js under ./config,' +
+          'check it\'s load in ./config/index.js or create it !')
+      )
+    }
   }
 
   /**
