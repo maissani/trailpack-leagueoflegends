@@ -19,8 +19,9 @@ module.exports = _.defaultsDeep({
         require('trailpack-core'),
         require('../')
       ]
+    },
+    leagueoflegends: {
+      apiKey: 'your-league-api-key-here'
     }
   }
 }, smokesignals.FailsafeConfig)
-
-
