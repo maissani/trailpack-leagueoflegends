@@ -22,20 +22,20 @@
   ],
   "dependencies": {
     "lodash": "^4.13.1",
-    "promise": "^7.1.1",
+    "promise": "^8.0.1",
     "request": "^2.73.0",
     "trailpack": "latest",
-    "trails-service": "^1.0.0-beta-2",
+    "trails-service": "^2.0.0",
     "uri-template": "^1.0.1"
   },
   "devDependencies": {
     "lodash": "^4.11.1",
     "trails": "latest",
-    "eslint": "^2.4",
-    "eslint-config-trails": "^1.0.4",
-    "mocha": "^2.4.5",
-    "smokesignals": "^1.0.9",
-    "trailpack-core": "^1.0.0-beta-6"
+    "eslint": "^4.19.1",
+    "eslint-config-trails": "^3.1.0",
+    "mocha": "^5.2.0",
+    "smokesignals": "^3.0.4",
+    "trailpack-core": "^2.0.0"
   },
   "scripts": {
     "test": "eslint . && mocha"
