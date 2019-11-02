@@ -31,7 +31,7 @@
   "devDependencies": {
     "lodash": "^4.11.1",
     "trails": "latest",
-    "eslint": "^2.4",
+    "eslint": "^6.6",
     "eslint-config-trails": "^1.0.4",
     "mocha": "^2.4.5",
     "smokesignals": "^1.0.9",
